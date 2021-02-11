@@ -1,0 +1,16 @@
+.database {
+	box-sizing: border-box;
+	background: linear-gradient(
+	155deg, #020024 0%, red 0%,
+	#ffab00 12%, #e0ff00 24%,
+	#00ff08 36%, #00e4ff 48%,
+	#0005ff 60%, #fe00e7 72%,
+	red 84%, #ffa200 96%
+	);
+	width: 11em;
+	height: 4em;
+	animation: borderAnim 55s linear infinite;
+	position: relative;
+	font-family: Arial, Helvetica, sans-serif;
+	transition: 0.3s;
+}
