@@ -10,8 +10,8 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="src/css/normalize.css">
-		<link rel="stylesheet" href="src/css/style.css">
+        <link rel="stylesheet" href="../src/css/normalize.css">
+		<link rel="stylesheet" href="../src/css/style.css">
 		<title>Local Host</title>
     </head>
     <body>
@@ -21,23 +21,14 @@
 				<div class="grid"></div>
 				
 			</header>
-		
+            <div class="drop-zone">
+                <span class="drop-zone__prompt">Drop file here or click to upload</span>
+                <input type="file" name="myFile" class="drop-zone__input">
+            </div>
+		</div>
 
-		<div class="database">
-			<a class="btn" href="/pages/filedrop.html">File Drop</a>
-		</div>
-	
-		<div class="google">
-			<a class="btn" href="https://google.com">Google</a>
-		</div>
-	
-		<div class="tutorial">
-			<a class="btn" href="https://www.w3schools.com/html/">HTML ref</a>
-		</div>
-	
-	
-		</div>
-	
-			<script src="src\js\main.js" async defer></script>
+        
+        <script src="../src/js/main.js" async defer></script>
+		<script src="../src/js/filedrop.js" async defer></script>
     </body>
 </html>
